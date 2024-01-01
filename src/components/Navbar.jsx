@@ -10,6 +10,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { useState } from "react";
 import { Link } from "react-scroll";
+import Resume from "../components/KarthikRajResume.pdf";
 
 export default function Navbar() {
   const [nav, setNav] = useState(false);
@@ -145,7 +146,8 @@ export default function Navbar() {
           <li className="w-[160px] h-[60-px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69] py-3">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://app.luminpdf.com/viewer/659291de9875e68efef2db21"
+              href={Resume}
+              download
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
