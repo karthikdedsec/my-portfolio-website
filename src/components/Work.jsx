@@ -164,11 +164,11 @@ export default function Work() {
               </div>
             </div>
           </div>
-          <div
+          {/* <div
             style={{ backgroundImage: `url(${WorkImg4})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
-            {/* hover effect */}
+           
             <div className="mx-4 opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-realtor font-bold text-white tracking-wider">
                 Transaction tracker using Reactjs and firebase
@@ -186,7 +186,7 @@ export default function Work() {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* <div
             style={{ backgroundImage: `url(${WorkImg5})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
