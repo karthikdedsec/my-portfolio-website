@@ -5,6 +5,7 @@ import WorkImg4 from "../assets/projects/workImg4.png";
 import WorkImg5 from "../assets/projects/workImg5.png";
 import WorkImg6 from "../assets/projects/workImg6.png";
 import WorkImg7 from "../assets/projects/workImg7.png";
+import WorkImg8 from "../assets/projects/workImg8.png";
 
 export default function Work() {
   return (
@@ -47,21 +48,22 @@ export default function Work() {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${WorkImg6})` }}
+            style={{ backgroundImage: `url(${WorkImg8})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* hover effect */}
             <div className="mx-4 opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold font-realtor text-white tracking-wider">
-                Online job portal site using Reactjs, Tailwind css and firebase.
+                Nike site Created using Reactjs and Tailwindcss and included
+                animation and dark mode
               </span>
               <div className="pt-8 text-center">
-                <a href="https://job-portal-website-five.vercel.app/">
+                <a href="https://nike-website-iota.vercel.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold font-realtor text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/karthikdedsec/realtor-cl-react">
+                <a href="https://github.com/karthikdedsec/Nike-website">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold font-realtor text-lg">
                     Code
                   </button>
@@ -69,6 +71,7 @@ export default function Work() {
               </div>
             </div>
           </div>
+
           <div
             style={{ backgroundImage: `url(${WorkImg})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
@@ -109,6 +112,29 @@ export default function Work() {
                 </a>
                 <a href="https://github.com/karthikdedsec/memory-game-react">
                   <button className="text-center font-realtor rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${WorkImg6})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* hover effect */}
+            <div className="mx-4 opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold font-realtor text-white tracking-wider">
+                Online job portal site using Reactjs, Tailwind css and firebase.
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://job-portal-website-five.vercel.app/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold font-realtor text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="https://github.com/karthikdedsec/realtor-cl-react">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold font-realtor text-lg">
                     Code
                   </button>
                 </a>
