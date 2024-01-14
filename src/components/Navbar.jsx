@@ -18,6 +18,9 @@ export default function Navbar() {
   const handleClick = () => {
     setNav(!nav);
   };
+  nav
+    ? (document.body.style.overflow = "hidden")
+    : (document.body.style.overflow = "auto");
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a1927] text-gray-300 z-30">
       <div>
