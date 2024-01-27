@@ -11,7 +11,7 @@ function Home() {
           Karthik Raj
         </h1>
         <h2 className="text-4xl sm:text-7xl font-bold font-realtor text-[#8892b0]">
-          I'am a MERN stack Developer.
+          I'am a FullStack web Developer.
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px] font-realtor">
           I,am a FrontEnd developer specializing in building and designing
