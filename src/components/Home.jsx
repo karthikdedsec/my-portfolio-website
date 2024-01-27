@@ -14,9 +14,9 @@ function Home() {
           I'am a FullStack web Developer.
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px] font-realtor">
-          I,am a FrontEnd developer specializing in building and designing
+          I,am a FullStack developer specializing in building and designing
           exceptional digital experiences. Currently, I'm focused on building
-          responsive FrontEnd web applications.
+          responsive web applications.
         </p>
         <div>
           <Link to="work" smooth={true} duration={500}>
