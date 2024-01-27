@@ -6,10 +6,14 @@ import WorkImg5 from "../assets/projects/workImg5.png";
 import WorkImg6 from "../assets/projects/workImg6.png";
 import WorkImg7 from "../assets/projects/workImg7.png";
 import WorkImg8 from "../assets/projects/workImg8.png";
+import realtor from "../assets/projects/realtor.png";
+import nike from "../assets/projects/nike.png";
+import lightnin from "../assets/projects/lightnin.png";
+import netflix from "../assets/projects/netflix.png";
 
 export default function Work() {
   return (
-    <div name="work" className="w-full md:h-screen text-gray-300 bg-[#0a192f]">
+    <div name="work" className="w-full md:h-[120%] text-gray-300 bg-[#0a192f]">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold font-realtor inline border-b-4 text-gray-300 border-pink-600">
@@ -24,8 +28,36 @@ export default function Work() {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 ">
           {/* Grid item */}
           <div
-            style={{ backgroundImage: `url(${WorkImg7})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            style={{
+              backgroundImage: `url(${lightnin})`,
+            }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div "
+          >
+            {/* hover effect */}
+            <div className="mx-4 opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold font-realtor text-white tracking-wider">
+                real estate site using Reactjs tailwind MongoDB Nodejs and
+                express
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://lightnin-estate.onrender.com/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold font-realtor text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="https://github.com/karthikdedsec/lightnin-estate-MERN--2">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold font-realtor text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{
+              backgroundImage: `url(${netflix})`,
+            }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div "
           >
             {/* hover effect */}
             <div className="mx-4 opacity-0 group-hover:opacity-100">
@@ -48,7 +80,7 @@ export default function Work() {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${WorkImg8})` }}
+            style={{ backgroundImage: `url(${nike})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* hover effect */}
@@ -73,7 +105,9 @@ export default function Work() {
           </div>
 
           <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
+            style={{
+              backgroundImage: `url(${realtor})`,
+            }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* hover effect */}
