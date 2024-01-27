@@ -55,6 +55,31 @@ export default function Work() {
           </div>
           <div
             style={{
+              backgroundImage: `url(${realtor})`,
+            }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* hover effect */}
+            <div className="mx-4 opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold font-realtor text-white tracking-wider">
+                Realestate site using Reactjs, firebase and tailwind
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://realtor-cl-react.vercel.app/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold font-realtor text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="https://github.com/karthikdedsec/realtor-cl-react">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold font-realtor text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{
               backgroundImage: `url(${netflix})`,
             }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div "
@@ -104,31 +129,6 @@ export default function Work() {
             </div>
           </div>
 
-          <div
-            style={{
-              backgroundImage: `url(${realtor})`,
-            }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* hover effect */}
-            <div className="mx-4 opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold font-realtor text-white tracking-wider">
-                Realestate site using Reactjs, firebase and tailwind
-              </span>
-              <div className="pt-8 text-center">
-                <a href="https://realtor-cl-react.vercel.app/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold font-realtor text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a href="https://github.com/karthikdedsec/realtor-cl-react">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold font-realtor text-lg">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
           <div
             style={{ backgroundImage: `url(${WorkImg2})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
