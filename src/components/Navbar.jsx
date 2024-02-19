@@ -10,7 +10,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { useState } from "react";
 import { Link } from "react-scroll";
-import Resume from "../assets/resume/my_resume.pdf";
+import Resume from "../assets/resume/KarthikRajResume.pdf";
 
 export default function Navbar() {
   const [nav, setNav] = useState(false);
