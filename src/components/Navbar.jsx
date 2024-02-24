@@ -149,7 +149,7 @@ export default function Navbar() {
           <li className="w-[160px] h-[60-px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69] py-3">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href={"$"}
+              href={"#"}
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
