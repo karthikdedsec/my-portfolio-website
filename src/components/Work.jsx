@@ -12,6 +12,7 @@ import lightnin from "../assets/projects/lightnin.png";
 import netflix from "../assets/projects/netflix.png";
 import blog from "../assets/projects/blog.png";
 import shopit from "../assets/projects/shopit.png";
+import foodi from "../assets/projects/foodi.png";
 
 export default function Work() {
   return (
@@ -29,6 +30,32 @@ export default function Work() {
         {/* container */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 ">
           {/* Grid item */}
+          <div
+            style={{
+              backgroundImage: `url(${foodi})`,
+            }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div "
+          >
+            {/* hover effect */}
+            <div className="mx-4 opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold font-realtor text-white tracking-wider">
+                e-commerce application created using Reactjs tailwind Nodejs
+                express and MongoDB
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://foodi-ecom.onrender.com/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold font-realtor text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="https://github.com/karthikdedsec/Foodi-ecom">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold font-realtor text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
           <div
             style={{
               backgroundImage: `url(${blog})`,
@@ -229,11 +256,11 @@ export default function Work() {
               </div>
             </div>
           </div>
-          <div
+          {/* <div
             style={{ backgroundImage: `url(${WorkImg3})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
-            {/* hover effect */}
+            
             <div className="mx-4 opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-realtor font-bold text-white tracking-wider">
                 Project management site using Reactjs and firebase
@@ -251,7 +278,7 @@ export default function Work() {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* <div
             style={{ backgroundImage: `url(${WorkImg4})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
