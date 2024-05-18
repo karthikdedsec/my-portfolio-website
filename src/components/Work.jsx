@@ -33,8 +33,9 @@ export default function Work() {
           <div
             style={{
               backgroundImage: `url(${foodi})`,
+              backgroundSize: "cover",
             }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div "
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* hover effect */}
             <div className="mx-4 opacity-0 group-hover:opacity-100">
@@ -59,6 +60,7 @@ export default function Work() {
           <div
             style={{
               backgroundImage: `url(${blog})`,
+              backgroundSize: "cover",
             }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div "
           >
@@ -85,6 +87,7 @@ export default function Work() {
           <div
             style={{
               backgroundImage: `url(${shopit})`,
+              backgroundSize: "cover",
             }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div "
           >
