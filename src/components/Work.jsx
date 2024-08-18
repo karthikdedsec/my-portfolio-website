@@ -102,7 +102,7 @@ export default function Work() {
                 Tailwind css
               </span>
               <div className="pt-8 text-center">
-                <a href="https://karthik-blog-ohyt.onrender.com/">
+                <a href="https://skynetgroup.ae">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold font-realtor text-lg">
                     Demo
                   </button>
