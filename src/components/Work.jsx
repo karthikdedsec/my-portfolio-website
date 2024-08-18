@@ -13,6 +13,10 @@ import netflix from "../assets/projects/netflix.png";
 import blog from "../assets/projects/blog.png";
 import shopit from "../assets/projects/shopit.png";
 import foodi from "../assets/projects/foodi.png";
+import airtac from "../assets/projects/airtac.png";
+import hermes from "../assets/projects/hermeslegal.png";
+import sruk from "../assets/projects/srukinv.png";
+import skynet from "../assets/projects/skynetw.png";
 
 export default function Work() {
   return (
@@ -29,6 +33,33 @@ export default function Work() {
 
         {/* container */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 ">
+          {/* Grid item */}
+          <div
+            style={{
+              backgroundImage: `url(${airtac})`,
+              backgroundSize: "cover",
+            }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* hover effect */}
+            <div className="mx-4 opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold font-realtor text-white tracking-wider">
+                aviation website created using Reactjs and Firebase
+              </span>
+              <div className="pt-8 text-center">
+                <a href="#">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold font-realtor text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="https://github.com/karthikdedsec/Airtac">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold font-realtor text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
           {/* Grid item */}
           <div
             style={{
@@ -50,6 +81,59 @@ export default function Work() {
                   </button>
                 </a>
                 <a href="https://github.com/karthikdedsec/Foodi-ecom">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold font-realtor text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{
+              backgroundImage: `url(${skynet})`,
+              backgroundSize: "cover",
+            }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div "
+          >
+            {/* hover effect */}
+            <div className="mx-4 opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold font-realtor text-white tracking-wider">
+                Skynet GRoup of Companies website Build using Reactjs and
+                Tailwind css
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://karthik-blog-ohyt.onrender.com/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold font-realtor text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="https://github.com/karthikdedsec/skynet">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold font-realtor text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{
+              backgroundImage: `url(${hermes})`,
+              backgroundSize: "cover",
+            }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div "
+          >
+            {/* hover effect */}
+            <div className="mx-4 opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold font-realtor text-white tracking-wider">
+                visa consultancy services website
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://hermeslegal.ae">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold font-realtor text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold font-realtor text-lg">
                     Code
                   </button>
@@ -113,23 +197,22 @@ export default function Work() {
           </div>
           <div
             style={{
-              backgroundImage: `url(${lightnin})`,
+              backgroundImage: `url(${sruk})`,
             }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div "
           >
             {/* hover effect */}
             <div className="mx-4 opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold font-realtor text-white tracking-wider">
-                real estate site using Reactjs tailwind MongoDB Nodejs and
-                express
+                real estate investments website
               </span>
               <div className="pt-8 text-center">
-                <a href="https://lightnin-estate.onrender.com/">
+                <a href="https://sruk.org">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold font-realtor text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/karthikdedsec/lightnin-estate-MERN--2">
+                <a href="">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold font-realtor text-lg">
                     Code
                   </button>
@@ -188,77 +271,7 @@ export default function Work() {
               </div>
             </div>
           </div>
-          <div
-            style={{ backgroundImage: `url(${nike})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* hover effect */}
-            <div className="mx-4 opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold font-realtor text-white tracking-wider">
-                Nike site Created using Reactjs and Tailwindcss and included
-                animation and dark mode
-              </span>
-              <div className="pt-8 text-center">
-                <a href="https://nike-website-iota.vercel.app/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold font-realtor text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a href="https://github.com/karthikdedsec/Nike-website">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold font-realtor text-lg">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
 
-          <div
-            style={{ backgroundImage: `url(${WorkImg2})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* hover effect */}
-            <div className="mx-4 opacity-0 group-hover:opacity-100">
-              <span className=" text-2xl font-bold font-realtor text-white tracking-wider">
-                Memory Game using Reactjs
-              </span>
-              <div className="pt-8 text-center">
-                <a href="https://memory-game-8551a.web.app/">
-                  <button className="text-center font-realtor rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a href="https://github.com/karthikdedsec/memory-game-react">
-                  <button className="text-center font-realtor rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            style={{ backgroundImage: `url(${WorkImg6})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* hover effect */}
-            <div className="mx-4 opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold font-realtor text-white tracking-wider">
-                Online job portal site using Reactjs, Tailwind css and firebase.
-              </span>
-              <div className="pt-8 text-center">
-                <a href="https://job-portal-website-five.vercel.app/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold font-realtor text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a href="https://github.com/karthikdedsec/realtor-cl-react">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold font-realtor text-lg">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
           {/* <div
             style={{ backgroundImage: `url(${WorkImg3})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
